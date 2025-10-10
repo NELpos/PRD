@@ -1,0 +1,19 @@
+{
+    "name": "fetch_document",
+    "description": "Fetch and extract text content from a URL. Automatically extracts readable text from HTML pages, or returns raw content for other formats. Perfect for reading documentation, articles, blog posts, and web pages.",
+    "input_schema": {
+      "type": "object",
+      "properties": {
+        "url": {
+          "type": "string",
+          "description": "The URL to fetch content from"
+        },
+        "extract_text": {
+          "type": "boolean",
+          "default": true,
+          "description": "If true, extracts clean text from HTML. If false, returns raw content."
+        }
+      },
+      "required": ["url"]
+    }
+  }
