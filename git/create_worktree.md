@@ -1,6 +1,6 @@
 # Prompt to create a worktree
 
-Your task is to create a new worktree named 'feature_a' in the .trees/feature_a folder.
+Your task is to create a new worktree named '$ARGUMENTS' in the .trees/$ARGUMENTS folder.
 
 Follow these steps:
 
